@@ -84,7 +84,7 @@ header .container{
 .logo h2 a{
 	color: white;
 }
-.navegacao{
+.navegacao ul{
 	list-style: none;
 }
 .navegacao li{
@@ -103,6 +103,40 @@ header .container{
 .navegacao.desktop li a:hover{
 	font-size: 1.8rem;
 	font-weight: bold;
+}
+.mobile i{
+	font-size: 2.2rem;
+	cursor: pointer;
+	transition: .5s;	
+}
+.mobile i:hover{
+	color: #2692FF;
+}
+.menu-mobile{
+	display: none;
+	text-align: center;
+	width: 100%;
+	z-index: 4;
+	position: absolute;
+	right: 0;
+	top: 8rem;
+	text-align: center;
+}
+.menu-mobile li{
+	display: inline-block;
+	width: 80%;
+	margin: .3rem 0;
+	background-color: white;
+	transition: .3s;
+	z-index: 4;
+}
+.menu-mobile li a{
+	color: black;
+	font-size: 1.8rem;
+	transition: .3s;
+}
+.menu-mobile li:hover a{
+	background-color: #2692FF;
 }
 		/*apresentacao*/
 
@@ -345,11 +379,24 @@ header .container{
 	padding: 1rem;
 }
 
+	/*footer*/
+footer{
+	width: 100%;
+	padding: 2rem 2%;
+	text-align: center;
+	color: white;
+	background-color: #444;
+}
+footer p{
+	font-size: 2rem;
+}
 
 
 	/*responsivo*/
 
 @media screen and (max-width: 768px){
+	.mobile{display: block;}
+	.desktop{display: none;}
 	.apresentacao{
 		text-align: center;
 	}
