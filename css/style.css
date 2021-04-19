@@ -47,9 +47,9 @@ a{text-decoration: none;color: initial;}
 	left: 0;
 	z-index: 0;
 }
-#topo > *:not(.cover){
+header{
 	position: relative;
-	z-index: 1;
+	z-index: 2;
 }
 header .container{
 	position: relative;
@@ -75,6 +75,7 @@ header .container{
 }
 .menu-social a:hover{
 	font-size: 3rem;
+	color: #2692FF;
 }
 .logo{
 	font-weight: bold;
@@ -103,6 +104,7 @@ header .container{
 .navegacao.desktop li a:hover{
 	font-size: 1.8rem;
 	font-weight: bold;
+	color: #2692FF;
 }
 .mobile i{
 	font-size: 2.2rem;
@@ -125,18 +127,24 @@ header .container{
 .menu-mobile li{
 	display: inline-block;
 	width: 80%;
+	padding: .5rem 0;
 	margin: .3rem 0;
 	background-color: white;
 	transition: .3s;
 	z-index: 4;
 }
 .menu-mobile li a{
+	display: block;
 	color: black;
 	font-size: 1.8rem;
 	transition: .3s;
 }
+.menu-mobile li:hover{
+	background-color: #ddd;
+}
 .menu-mobile li:hover a{
-	background-color: #2692FF;
+	color: #2692FF;
+	font-weight: bolder;
 }
 		/*apresentacao*/
 
@@ -144,6 +152,8 @@ header .container{
 	padding: 10rem 2rem 2rem;
 	max-width: 80rem;
 	color: white;
+	position: relative;
+	z-index: 1;
 }
 .apresentacao h2{
 	font-size: 4.4rem;
