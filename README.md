@@ -12,3 +12,7 @@ Desta vez não haverá controle de tarefas.
 - :up: Atualização
 - :beetle: Correção de bug
 - :checkered_flag: Release
+
+## Projeto Pronto
+
+https://ciphercrow.github.io/Projeto-semnome/
