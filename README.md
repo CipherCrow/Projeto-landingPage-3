@@ -1,18 +1,25 @@
-# Projeto Site Empresarial
+## Projeto Site Empresarial
+Projeto de Website desenvolvido no curso Webmaster Front-end da DankiCode. Consiste em uma landing-page para  uma empresa fictícia que vende serviços através de pacotes.
 
-Projeto de site para empresas fictícias que trabalham com venda de serviços através de pacotes.
+## 💻 Tecnologias 
+>![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+>![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+>![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+>![JQUERY](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
-## Tarefas
-
-Desta vez não haverá controle de tarefas.
+## 💻 Alterações do Original
+1. FlexBox.
+2. Animações com css.
+3. Acessibilidade.
+4. MetaTags
 
 ## Ícones
+- :up: Atualização.
+- :bug: Correcão.
 
-- :package: Nova funcionalidade
-- :up: Atualização
-- :beetle: Correção de bug
-- :checkered_flag: Release
+## 📱 GitHub-Pages
+- [x] Responsividade
+- [x] Finalizado
+- [x] Ao Ar
 
-## Projeto Pronto
-
-https://ciphercrow.github.io/Projeto-semnome/
+>GitHub-Pages: https://ciphercrow.github.io/Projeto-landingPage-3/
